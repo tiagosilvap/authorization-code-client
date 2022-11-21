@@ -4,7 +4,7 @@ const config = {
     authorizeUrl: "http://localhost:8081/oauth/authorize",
     tokenUrl: "http://localhost:8081/oauth/token",
     callbackUrl: "http://localhost:63341/authorization-code-client/index.html",
-    cozinhasUrl: "http://localhost:8080/products"
+    cozinhasUrl: "http://localhost:8080/v1/products"
 };
 
 let accessToken = "";
